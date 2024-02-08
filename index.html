@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="msg-Container hide">
+      <!-- hide to not show it all the time -->
+      <p id="mess">WINNER</p>
+      <button id="newgamebtn">New Game</button>
+    </div>
+    <main>
+      <h1 id="heading">Tic-Tac-Toe</h1>
+      <div class="container">
+        <!-- //WE CAN STORE OUR WHOLE GAME  DIV INSIDE A CONTAINER DIV// -->
+        <div class="game">
+          <!-- //we have to make 9 boxes which will either have x or y so we made 9 buttons// -->
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button class="reset-btn">Reset Game</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

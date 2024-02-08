@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #846268e7;
+  text-align:center;
+}
+.container {
+  
+
+  height: 70vh;
+  /* //jitna humare page visible hoga us ka 70% container div ke paas hi rhega */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* //to center game div in container div */
+}
+#heading {
+  margin-top: 15px;
+  text-align: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  /* //1% of viewpoort's smaller dimension */
+  display: flex;
+  flex-wrap: wrap;
+  /* //means jagah nahi hai toh next line par aajao// */
+  justify-content: center;
+  align-items: center;
+  /* //gamediv ke center mei aagaya hai// */
+  gap: 1.5vmin;
+  /* //for gap btw the boxes/buttons */
+}
+.box {
+  height: 18vmin;
+  /* //60% height/width we want 3 boxes in one line so 60/3=20 but we took 18 */
+  width: 18vmin;
+  border-radius: 1.5rem;
+  border: none;
+  box-shadow:0 0 1rem rgba(112, 108, 108, 0.285);
+  font-size: 8vmin;
+  /* //for x and o// */
+  color: #e083ae;
+  background-color:#ecdcace7;
+}
+.reset-btn{
+    font-size:2rem;
+    padding:1rem;
+    background-color:white;
+    color:#4b3473;
+    border:none;
+    border-radius:1rem;
+    box-shadow:0 0 1rem rgba(112, 108, 108, 0.285);
+}
+#newgamebtn{
+    font-size:2rem;
+    padding:1rem;
+    background-color:white;
+    color:#4b3473;
+    border:none;
+    border-radius:1rem;
+    box-shadow:0 0 1rem rgba(112, 108, 108, 0.285);
+}
+#mess{
+    color:#ecdcace7;
+    font-size:5vmin;
+}
+.msgContainer{
+    height:40vmin;
+}
+.hide{
+    display:none;
+}

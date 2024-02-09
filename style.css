@@ -73,3 +73,40 @@ body {
 .hide{
     display:none;
 }
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 80vh;
+  }
+
+  .game {
+    height: 80vmin;
+    width: 80vmin;
+  }
+
+  .box {
+    height: 25vmin;
+    width: 25vmin;
+    font-size: 12vmin;
+  }
+}
+
+/* Laptops and Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    height: 50vh;
+  }
+
+  .game {
+    height: 50vmin;
+    width: 50vmin;
+  }
+
+  .box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 7vmin;
+  }
+}
